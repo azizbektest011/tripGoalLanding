@@ -45,4 +45,15 @@ header nav {
 .sidenav-item:hover {
     color: var(--btnBg);
     cursor: pointer;
+    transition: color .2s ease-out;
+}
+
+.header-btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: var(--btnBg);
+    color: white;
+    font-size: 17px;
 }
