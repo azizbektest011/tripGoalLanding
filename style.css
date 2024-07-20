@@ -57,3 +57,44 @@ header nav {
     color: white;
     font-size: 17px;
 }
+
+/* HERO-STYLES */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-info {
+    width: 48%;
+}
+
+.her-info__name {
+    color: #00B3A0;
+    font-size: 20px;
+}
+
+.hero-info__title {
+    font-size: 60px;
+    font-family: Eksell Display TRIAL;
+    color: var(--color);
+    margin: 10px 0;
+    line-height: 70px;
+}
+
+.hero-info__subtitle {
+    font-size: 18px;
+    color: #697687;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin: 10px 0 20px 0;
+}
+.hero-btn {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    background: var(--btnBg);
+    color: white;
+    border-radius: 10px;
+}
