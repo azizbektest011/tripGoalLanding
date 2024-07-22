@@ -273,3 +273,50 @@ header nav {
 .card-price p {
     font-size: 18px;
 }
+/* DISCOVER-SECTION-STYLES */
+.discover {
+    background-image: url(imgs/discover.png);
+    display: flex;
+    justify-content: end;
+    margin: 0 0 50px 0;
+    background-size: cover;
+    height: 690px;
+}
+
+.discover--info {
+    background-image: url(imgs/white-map.png);
+    background-size: cover;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 100px;
+}
+.discover-wrapper {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.discover-name {
+    color: #00B3A0;
+}
+.discover-title {
+    font-size: 45px;
+    font-family: Eksell Display TRIAL;
+    color: #002248;
+    letter-spacing: 1px;
+}
+.discover-subtitle {
+    font-size: 17px;
+}
+.discover-btn {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    background: var(--btnBg);
+    color: white;
+    border-radius: 10px;    
+}
