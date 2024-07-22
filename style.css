@@ -6,6 +6,10 @@
     --btnBg: #3685FB;
 }
 
+button {
+    cursor: pointer;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -175,4 +179,97 @@ header nav {
 
 .perfection-card__title {
     color: var(--color);
+}
+
+/* LOCATION-STYLES */
+.location {
+    background: #f8f8f8;
+    padding: 70px 0;
+}
+
+.location-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.location-subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-subtitle p {
+    width: 48%;
+    font-size: 18px;
+}
+
+.location-name {
+    color: #00B3A0;
+    font-size: 18px;
+}
+
+.location-title {
+    font-size: 43px;
+    font-family: Eksell Display TRIAL;
+}
+
+.location-btn__grp {
+    display: flex;
+    gap: 10px;
+}
+
+.location-btn__grp button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.location-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.location-list li {
+    list-style: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    width: 370px;
+    height: 500px;
+    justify-content: center;
+    padding: 30px; 
+}
+.locaiton-card__info {
+    background: rgba(0, 34, 72, 0.3) ;
+    width: 100%;
+    color: white;
+    padding: 23px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-rating h3 {
+    font-family: Eksell Display TRIAL;
+    font-size: 20px;
+    line-height: 20px;
+}
+.card-rating {
+    display: flex;
+    justify-content: space-between;
+}
+.card-rating i {
+    font-size: 15px;
+}
+.card-price {
+    display: flex;
+    justify-content: space-between;
+}
+.card-price span {
+    font-size: 20px;
+}
+.card-price p {
+    font-size: 18px;
 }
