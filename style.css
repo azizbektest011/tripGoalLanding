@@ -238,10 +238,11 @@ header nav {
     width: 370px;
     height: 500px;
     justify-content: center;
-    padding: 30px; 
+    padding: 30px;
 }
+
 .locaiton-card__info {
-    background: rgba(0, 34, 72, 0.3) ;
+    background: rgba(0, 34, 72, 0.3);
     width: 100%;
     color: white;
     padding: 23px 20px;
@@ -251,28 +252,35 @@ header nav {
     flex-direction: column;
     gap: 10px;
 }
+
 .card-rating h3 {
     font-family: Eksell Display TRIAL;
     font-size: 20px;
     line-height: 20px;
 }
+
 .card-rating {
     display: flex;
     justify-content: space-between;
 }
+
 .card-rating i {
     font-size: 15px;
 }
+
 .card-price {
     display: flex;
     justify-content: space-between;
 }
+
 .card-price span {
     font-size: 20px;
 }
+
 .card-price p {
     font-size: 18px;
 }
+
 /* DISCOVER-SECTION-STYLES */
 .discover {
     background-image: url(imgs/discover.png);
@@ -293,24 +301,29 @@ header nav {
     align-items: end;
     padding-right: 100px;
 }
+
 .discover-wrapper {
     width: 460px;
     display: flex;
     flex-direction: column;
     gap: 13px;
 }
+
 .discover-name {
     color: #00B3A0;
 }
+
 .discover-title {
     font-size: 45px;
     font-family: Eksell Display TRIAL;
     color: #002248;
     letter-spacing: 1px;
 }
+
 .discover-subtitle {
     font-size: 17px;
 }
+
 .discover-btn {
     width: 150px;
     height: 45px;
@@ -318,5 +331,81 @@ header nav {
     border: none;
     background: var(--btnBg);
     color: white;
-    border-radius: 10px;    
+    border-radius: 10px;
+}
+
+/* ABOUT-SECTION-STYLES */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-name {
+    color: #00B3A0;
+    font-size: 18px;
+}
+
+.about-title {
+    font-size: 45px;
+    font-family: Eksell Display TRIAL;
+    color: #002248;
+    letter-spacing: 2px;
+}
+
+.about-subtitle {
+    width: 95%;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.about-statistics__item h1 {
+    font-size: 40px;
+    color: var(--btnBg);
+}
+.about-statistics__item {
+    text-align: center;
+    width: 170px;
+    padding: 30px;
+    border: 3px solid #f1f1f1;
+    border-radius: 7px;
+}
+.about-statistic {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px; 
+}
+/* TESTIMONIAL-SECTION-STYLES */
+.testimonial {
+    /* background: #f8f8f8; */
+    padding: 50px 0;
+}
+.testimonial-info {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.testimonial-name {
+    color: #00B3A0;
+    font-size: 18px;
+}
+.testimonial-title {
+    font-size: 42px;
+    font-family: Eksell Display TRIAL;
+    letter-spacing: 2px;
+}
+.testimonial-subtitle {
+    font-size: 18px;
+    width: 60%;
+    margin: 0 auto;
 }
