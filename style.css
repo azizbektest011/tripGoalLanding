@@ -365,10 +365,12 @@ header nav {
     line-height: 28px;
     text-align: left;
 }
+
 .about-statistics__item h1 {
     font-size: 40px;
     color: var(--btnBg);
 }
+
 .about-statistics__item {
     text-align: center;
     width: 170px;
@@ -376,18 +378,21 @@ header nav {
     border: 3px solid #f1f1f1;
     border-radius: 7px;
 }
+
 .about-statistic {
     width: 50%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    gap: 30px; 
+    gap: 30px;
 }
+
 /* TESTIMONIAL-SECTION-STYLES */
 .testimonial {
     /* background: #f8f8f8; */
     padding: 50px 0;
 }
+
 .testimonial-info {
     margin: 0 auto;
     text-align: center;
@@ -395,17 +400,128 @@ header nav {
     flex-direction: column;
     gap: 13px;
 }
+
 .testimonial-name {
     color: #00B3A0;
     font-size: 18px;
 }
+
 .testimonial-title {
     font-size: 42px;
     font-family: Eksell Display TRIAL;
     letter-spacing: 2px;
 }
+
 .testimonial-subtitle {
     font-size: 18px;
     width: 60%;
     margin: 0 auto;
+}
+
+/* SOCIALFEED-STYLES */
+.socialfeed-img {
+    background-image: url(imgs/socialfeed.jpg);
+    width: 100%;
+    height: 460px;
+    background-size: cover;
+    margin: 30px 0;
+}
+
+.socialfeed {
+    margin: 50px 0;
+}
+
+.socialfeed .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.socialfeed-name {
+    color: #00B3A0;
+    font-size: 18px;
+}
+
+.socialfeed-title {
+    color: #002248;
+    font-size: 45px;
+    font-family: Eksell Display TRIAL;
+    width: 80%;
+    letter-spacing: 2px;
+}
+
+.socialfeed-btn {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    background: var(--btnBg);
+    color: white;
+    border-radius: 10px;
+}
+
+.contact {
+    background: #f3f8ff;
+    padding: 80px 70px 0 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.contact-name {
+    color: #00B3A0;
+    font-size: 18px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.contact-title {
+    color: #002248;
+    font-size: 50px;
+    font-family: Eksell Dsiplay TRIAL;
+    width: 80%;
+}
+
+.contact-btn {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    background: var(--btnBg);
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 20px;
+}
+
+.footer-list i {
+    font-size: 20px;
+    margin: 0 10px;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.footer-copy {
+    color: #697687;
+    text-align: center;
+    margin: 20px 0;
 }
